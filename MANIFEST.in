@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include noorreports *.css
+recursive-include noorreports *.csv
+recursive-include noorreports *.html
+recursive-include noorreports *.ico
+recursive-include noorreports *.js
+recursive-include noorreports *.json
+recursive-include noorreports *.md
+recursive-include noorreports *.png
+recursive-include noorreports *.py
+recursive-include noorreports *.svg
+recursive-include noorreports *.txt
+recursive-exclude noorreports *.pyc
