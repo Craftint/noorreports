@@ -11,8 +11,13 @@ def get_data():
                 "type": "report",
                 "name": "Statement Of Accounts",
                 "is_query_report": True,
-                "onboard": 1,
                 "doctype": "Account"
+            },
+            {
+                "type": "report",
+                "name": "PDC-Register",
+                "is_query_report": True,
+                "doctype": "Payment Entry"
             }
 
         ]
