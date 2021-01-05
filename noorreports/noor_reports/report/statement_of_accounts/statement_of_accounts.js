@@ -146,7 +146,7 @@ frappe.query_reports["Statement Of Accounts"] = {
 		},
 		{
 			"fieldname":"show_future_payments",
-			"label": __("Show Future Payments"),
+			"label": __("Show PDC Payments"),
 			"fieldtype": "Check",
 		},
 		{
