@@ -18,6 +18,13 @@ def get_data():
                 "name": "PDC-Register",
                 "is_query_report": True,
                 "doctype": "Payment Entry"
+            },
+            {
+                "type": "report",
+                "name": "General Ledger",
+                "is_query_report": True,
+                "doctype": "GL Entry"
+
             }
 
         ]
